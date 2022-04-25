@@ -43,7 +43,9 @@
 #include <krb5/krb5.h>
 #include <kadm5/admin.h>
 
+#ifndef KRB5_KEYTAB
 #define KRB5_KEYTAB "/etc/ldap/slapd.d/openldap-krb5.keytab"
+#endif
 
 static AttributeDescription *ad_objectclass;
 static AttributeDescription *ad_uid;
