@@ -38,7 +38,7 @@
 
 #include <slap.h>
 
-#include "config.h"
+#include "slap-config.h"
 
 #include <krb5/krb5.h>
 #include <kadm5/admin.h>
